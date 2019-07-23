@@ -1,0 +1,92 @@
+body {
+    text-align: center;
+}
+
+.dbs-hero-image {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+}
+
+.dbs-register-btn {
+    position: absolute;
+    left: 0;
+    right: 0;
+    font-weight: bold;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px;
+    background: black;
+    border-color: black;
+    color: white !important;
+    cursor: pointer;
+}
+
+@media (max-width: 575.98px) { 
+    .dbs-register-btn {
+        width: 111px;
+        bottom: 61px;
+        font-size: 0.7rem;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
+
+@media (min-width: 576px) { 
+    .dbs-register-btn {
+        font-size: 1rem;
+        width: 180px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        border-radius: 5px;
+        bottom: 102px;  
+    }
+}
+
+@media (min-width: 768px) { 
+    .dbs-register-btn {
+        bottom: 144px;
+        font-size: 1.3rem;
+        padding-left: 25px;
+        padding-right: 25px;
+        width: 222px;
+    }
+}
+
+@media (min-width: 992px) {
+    .dbs-register-btn {
+        bottom: 190px;
+        font-size: 2rem;
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 289px;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        overflow: hidden;
+    }
+    
+    .dbs-hero-image {
+        max-width: 39.3%;
+    }
+
+    .dbs-register-btn {
+        bottom: 98px;
+        font-size: 1.3rem;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 176px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+}
